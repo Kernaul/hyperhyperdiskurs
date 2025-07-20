@@ -1,0 +1,36 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fefefe;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+header, nav, main, footer {
+  padding: 1em 2em;
+  max-width: 800px;
+  margin: auto;
+}
+header {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ccc;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+nav a {
+  text-decoration: none;
+  color: #0066cc;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+footer {
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 2em;
+  color: #666;
+}
