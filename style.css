@@ -1,12 +1,18 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #fefefe;
+  background: #f0ede7;
   color: #222;
   margin: 0;
   padding: 0;
 }
-header, nav, main, footer {
+header {
+  background-color: #dcd8d0;
+}
+nav a {
+  color: #7d3c1f;
+}
+main, footer {
   padding: 1em 2em;
   max-width: 800px;
   margin: auto;
